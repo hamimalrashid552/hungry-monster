@@ -33,6 +33,7 @@
 }
 .meal-name h3{
     font-size: 35px;
+    background-color: rgba(236, 236, 236, 0.884);
 }
 .recipe-btn{
     text-decoration: none;
@@ -40,9 +41,13 @@
     font-size: 20px;
     padding: 15px 0;
     display: block;
+   
 }
 #meal{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
+}
+.meal-item{
+    margin: 0;
 }
